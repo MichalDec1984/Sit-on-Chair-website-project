@@ -7,7 +7,7 @@ body {
 header {
 	margin-top:100px;
 }
-/*NAV*/
+//NAV
 .nav_font {
  	text-transform: uppercase;
  	font-weight: bold;
@@ -270,7 +270,7 @@ section, footer {
 }
 .price_list_box {
 	background-color: white;
-	@include sizePage (100%,null,null,null,650px,null);
+	@include sizePage (100%,null,null,null,550px,null);
 	border: 2px solid $border-color;
 	margin-bottom: 20px;
 }
@@ -279,7 +279,6 @@ section, footer {
 			transition: 1s;
 			transition-delay: 0.2s;
 			background-color: $main-color;
-			@include sizePage (100%,null,null,null,550px,null);
 			border: 2px solid $border-color;
 			cursor: pointer;
 			h3 {
@@ -368,14 +367,13 @@ section, footer {
  	line-height: 180%;
 }
 .first_box_button_position {
-	margin-top: 110px;
-}
+  margin-top: 110px; }
+
 .second_box_button_position {
-	margin-top: 70px;
-}
+  margin-top: 70px; }
+
 .third_box_button_position {
-	margin-top: 30px;
-}
+  margin-top: 30px; }
 /*FORM*/
 .contact_title {
 	font-size: 1.5rem;
@@ -395,8 +393,10 @@ section, footer {
 	font-size: 1.6rem;
  	color:$form-text-color;
 }
-input[type=checkbox] {
-	@include sizePage (25px,25px,null,null,null,null);
+
+#checkbox {
+	margin-left: -15px;
+	transform: scale(1.5);
 }
 .checkbox {
 	label {
@@ -404,6 +404,7 @@ input[type=checkbox] {
 			color: #c4c4c4;
  			font-size: 1.6rem;
  			padding-left: 10px;
+ 			padding-bottom: 0px;
  		}
  	}
 }

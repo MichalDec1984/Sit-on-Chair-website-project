@@ -1,4 +1,4 @@
-/*MIXINS*/
+//MIXINS
 @mixin sizePage($height,$width,$maxwidth,$minwidth,$maxheight, $minheight) {
 	height: $height;
 	max-height: $maxheight;
@@ -14,12 +14,12 @@
 	background-position: $position;
 	background-repeat: $repeat;
 }
-/*EXPAND*/
+//EXPAND
 %marginAuto {
 	margin-left: auto;
 	margin-right: auto;
 }
-/*VARIABLES*/
+//VARIABLES
 $main-color:#24baa0;
 $border-color:#d6d5d5;
 $form-text-color:#cacaca;

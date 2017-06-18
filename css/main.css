@@ -1,10 +1,7 @@
-/*MIXINS*/
-/*EXPAND*/
 .header_text, .header_btn, .black_chair, .red_chair, .orange_chair, .box_button, .form_button {
   margin-left: auto;
   margin-right: auto; }
 
-/*VARIABLES*/
 body {
   font-family: "Raleway", sans-serif;
   margin: 0;
@@ -13,7 +10,6 @@ body {
 header {
   margin-top: 100px; }
 
-/*NAV*/
 .nav_font {
   text-transform: uppercase;
   font-weight: bold;
@@ -264,7 +260,7 @@ section, footer {
 .price_list_box {
   background-color: white;
   height: 100%;
-  max-height: 650px;
+  max-height: 550px;
   border: 2px solid #d6d5d5;
   margin-bottom: 20px; }
 
@@ -276,8 +272,6 @@ section, footer {
        -o-transition-delay: 0.2s;
           transition-delay: 0.2s;
   background-color: #24baa0;
-  height: 100%;
-  max-height: 550px;
   border: 2px solid #d6d5d5;
   cursor: pointer; }
   .price_list_box:hover h3 {
@@ -411,14 +405,17 @@ section, footer {
   font-size: 1.6rem;
   color: #cacaca; }
 
-input[type=checkbox] {
-  height: 25px;
-  width: 25px; }
+#checkbox {
+  margin-left: -15px;
+  -webkit-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+          transform: scale(1.5); }
 
 .checkbox label p {
   color: #c4c4c4;
   font-size: 1.6rem;
-  padding-left: 10px; }
+  padding-left: 10px;
+  padding-bottom: 0px; }
 
 sup {
   font-size: 1rem; }
@@ -550,6 +547,8 @@ footer {
       padding: 0; }
   .odd_box {
     height: 100%; }
+  .form_image {
+    display: none; }
   .center {
     margin-left: auto;
     margin-right: auto;
@@ -557,7 +556,7 @@ footer {
     width: 100%;
     max-width: 200px; }
   .checkbox p {
-    padding-top: 5px; }
+    padding-top: 0px; }
   footer p {
     text-align: center; }
   .footer_logo p {
