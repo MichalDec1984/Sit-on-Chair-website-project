@@ -1,0 +1,25 @@
+/*MIXINS*/
+@mixin sizePage($height,$width,$maxwidth,$minwidth,$maxheight, $minheight) {
+	height: $height;
+	max-height: $maxheight;
+	min-height: $minheight;
+	width: $width;
+	max-width: $maxwidth;
+	min-width: $minwidth;
+
+}
+@mixin imageProperties($image,$size,$position,$repeat) {
+	background-image: $image;
+	background-size: $size;
+	background-position: $position;
+	background-repeat: $repeat;
+}
+/*EXPAND*/
+%marginAuto {
+	margin-left: auto;
+	margin-right: auto;
+}
+/*VARIABLES*/
+$main-color:#24baa0;
+$border-color:#d6d5d5;
+$form-text-color:#cacaca;

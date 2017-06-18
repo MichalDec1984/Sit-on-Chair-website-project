@@ -1,0 +1,148 @@
+/*screens under 185px*/
+@media (max-width: 185px) {
+	.circle {
+		@include sizePage(100%,100%,125px,null,125px,null)
+	}
+	.price_list_box {
+		h3 {
+			font-size: 1.5rem;
+		}
+	}
+}
+/*screens under 400px*/
+@media (max-width: 400px) {
+	.arrow_left {
+		display: none;	
+	}
+	.arrow_right {
+		display: none;
+	}
+}
+/*screens under 768x and over 500px */
+@media (max-width: 768px) and (min-width: 500px) {
+	.product1 {
+		margin-left: auto;
+		margin-right: auto;
+		height: 400px;
+		.opacity_box {
+			margin-top: 290px;
+		}
+	}
+	.product2 {
+		margin-left: auto;
+		margin-right: auto;
+		height: 400px;
+		.opacity_box {
+			margin-top: 290px;
+		}
+	}
+}
+/*screens under 768x*/
+@media (max-width: 768px) {
+	.header_jumbotron {
+		height: 100%;
+		position: relative;
+	}
+	.arrow_left {
+		position: absolute;
+		top: 1%;
+		right: 85%;
+		z-index: 1;
+	}
+	.arrow_right {
+		position: absolute;
+		top: 0.8%;
+		left: 85%;
+	}
+	.black_chair{
+		@media (max-width: 360px) {
+			width:100%;
+		}
+	}
+	.red_chair{
+		@media (max-width: 360px) {
+			width:100%;
+		}
+	}
+	.orange_chair{
+		@media (max-width: 360px) {
+			width:100%;
+		}
+	}
+	ul {
+		padding: 0;
+		li {
+			width: 100%;
+		}
+	}
+	.section_title {
+		margin-top: 15px;
+	}
+	.price_list_box {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		height: 100%;
+		h3 {
+			font-size: 1.5rem;
+			padding: 0;
+		}
+	}
+	.odd_box {
+		height: 100%;
+	}
+
+	.center {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		@include sizePage(null,100%,200px,null,null,null);
+	}
+	.checkbox {
+ 		p {
+ 			padding-top: 5px;
+ 		}
+	}
+	footer {
+		p {
+			text-align: center;
+		}
+	}
+	.footer_logo {
+		p {
+			text-align: center;
+			padding-top:15px; 
+		}
+	}	
+	.social_icons {
+		margin-bottom: 0; 
+	}
+}
+/*screens under 992x*/
+@media (max-width: 992px) {
+	.header_jumbotron {
+		@include sizePage(100%,null,null,null,null,350px)
+	}
+
+	.black_chair{
+		@include sizePage(100%,null,null,null,300px,null)
+	}
+	.red_chair{
+		@include sizePage(100%,100%,350px,null,350px,null)
+	}
+	.orange_chair{
+		@include sizePage(100%,null,null,null,400px,null)
+	}
+	.header_btn {
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+	.header_text {
+		margin-top:20px;
+	}
+	.center {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		@include sizePage(null,100%,200px,null,null,null)
+	}
+}
