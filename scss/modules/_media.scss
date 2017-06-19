@@ -10,9 +10,9 @@
 	}
 }
 /*screens under 400px*/
-@media (max-width: 400px) {
+@media (max-width: 500px) {
 	.arrow_left {
-		display: none;	
+		display: none;
 	}
 	.arrow_right {
 		display: none;
@@ -48,11 +48,13 @@
 		top: 1%;
 		right: 85%;
 		z-index: 1;
+		margin-top: 150px;	
 	}
 	.arrow_right {
 		position: absolute;
 		top: 0.8%;
 		left: 85%;
+		margin-top: 150px;	
 	}
 	.black_chair{
 		@media (max-width: 360px) {
